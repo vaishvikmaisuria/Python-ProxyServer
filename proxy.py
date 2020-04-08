@@ -23,7 +23,7 @@ def URLtoFile(url):
     @param url: the URL to convert
     @return: a valid filename
     """
-    return url.replace("/", " ")
+    return url.replace("/", "-")
 
 def injectHTML(data, content='fresh', attime=0):
     """
